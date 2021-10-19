@@ -109,7 +109,9 @@ nav {
 -o-user-select:none;
 user-select:none;
 }
-
+body{
+    scroll-behavior: smooth;
+}
 nav ul,nav li {
 outline:0;
 margin:0;
@@ -150,6 +152,7 @@ height: 100%;
     background-image: url(../img/conf-1.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 .topb{
@@ -209,7 +212,9 @@ height: 100%;
 
 
 
-
+body{
+    scroll-behavior: smooth;
+}
 
 
 .schedule_conference{
@@ -523,7 +528,7 @@ height: 100%;
     text-align: center;
     margin: 1.3rem;
     font-size: 1.4rem;
-    margin-left: -0.8rem;
+    /* margin-left: -0.8rem; */
 }
 .about .team .team_members .card .description{
     text-align: center;
