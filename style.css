@@ -12,7 +12,8 @@ body{
     box-shadow:  rgba(22, 8, 8, 0.952);
     margin-top: 12%;
     /* background: linear-gradient(crimson,white); */
-    background-color:#5dff57;
+    /* background-color:#5dff57; */
+    background: linear-gradient(#ff0030,#9019db);
   }
   .img-left{
       width: 50%;
